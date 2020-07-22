@@ -1,9 +1,6 @@
 name: Build Dockerfile and Push Github page
 
-on:
-  push:
-    branches:
-      - development
+on: [push, workflow_dispatch]
 
 jobs:
   build-and-push:
