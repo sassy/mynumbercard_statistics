@@ -9,8 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-        with:
-          ref: development
 
       - name: cache data dir
         uses: actions/cache@preview
